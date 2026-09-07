@@ -2,6 +2,14 @@
 
 A static, frontend-only screen and flow editor. Sketch with 14 component types, connect screens, preview interactions, and export a natural-language coding prompt in English, Spanish, French, or Hindi.
 
+[Open the public app](https://akumukage.github.io/forma-material-studio/)
+
+## GitHub Pages
+
+The `Deploy to GitHub Pages` workflow builds, checks, and publishes the app on every push to `main`. It uses the Pages-provided base path so scripts and styles load under the repository URL. The repository's Pages publishing source is GitHub Actions.
+
+For a matching local export, set `GITHUB_PAGES_BASE_PATH=/forma-material-studio` before running `npm run build`. Without this variable, the app still builds for a root URL. Deploy only `dist/client`, never the source or server build.
+
 ## Run
 
 ```sh

@@ -7,7 +7,7 @@
   },
   "scripts": {
     "dev": "vinext dev",
-    "build": "vinext build",
+    "build": "node scripts/build.mjs",
     "start": "vinext start",
     "lint": "oxlint",
     "format": "oxfmt",
